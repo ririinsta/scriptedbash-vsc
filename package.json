@@ -1,0 +1,11 @@
+{
+  "name": "scriptedbash-vsc",
+  "version": "1.0.0",
+  "description": "VSCode Extension for ScriptedBash",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

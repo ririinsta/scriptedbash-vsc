@@ -1,0 +1,25 @@
+{
+  "name": "scriptedbash-syntax",
+  "displayName": "ScriptedBash Syntax",
+  "description": "Syntax for ScriptedBash",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "sb",
+      "aliases": ["ScriptedBash", "sb"],
+      "extensions": [".sb"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "sb",
+      "scopeName": "",
+      "path": "./syntaxes/sb.tmLanguage.json"
+    }]
+  }
+}
